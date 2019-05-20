@@ -23,7 +23,7 @@ function appendKitten(name)
 {
   newKittenGroup;
   newKittenGroup = [...kittens, name];
-  return kittens;
+  return newKittenGroup;
 }
 
 function prependKitten(name)
