@@ -21,7 +21,8 @@ function destructivelyRemoveLastKitten()
 
 function appendKitten(name)
 {
-  kittens = [name, ...kittens];
+  newKittenGroup;
+  newKittenGroup = [...kittens, name];
   return kittens;
 }
 
