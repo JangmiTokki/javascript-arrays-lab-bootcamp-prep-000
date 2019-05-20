@@ -45,3 +45,10 @@ function removeLastKitten()
   newKittenGroup = kittens.slice(0, -1);
   return newKittenGroup;
 }
+
+function removeFirstKitten()
+{
+  var newKittenGroup;
+  newKittenGroup = kittens(-1);
+  return newKittenGroup;
+}
