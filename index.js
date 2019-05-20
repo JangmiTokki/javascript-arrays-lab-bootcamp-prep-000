@@ -34,7 +34,14 @@ function appendKitten(name)
 
 function prependKitten(name)
 {
-  var newKittenGroup
+  var newKittenGroup;
   newKittenGroup = [name, ...kittens];
+  return newKittenGroup;
+}
+
+function removeLastKitten()
+{
+  var newKittenGroup;
+  newKittenGroup = kittens.slice(0, -1);
   return newKittenGroup;
 }
